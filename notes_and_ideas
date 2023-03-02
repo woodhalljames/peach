@@ -1,0 +1,20 @@
+https://www.schemecolor.com/peach-pastel.php
+#Hex colors for site. 
+
+{% for item in men_clothing %}
+    <div class="item">
+        <img src="{{ item.image.url }}" alt="{{ item.name }}">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <p>${{ item.price }}</p>
+    </div>
+{% endfor %}
+
+Code for displaying items. not alt
+
+
+favicon -wave
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
