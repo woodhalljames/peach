@@ -139,6 +139,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+notes_and_ideas
 
 # Spyder project settings
 .spyderproject
